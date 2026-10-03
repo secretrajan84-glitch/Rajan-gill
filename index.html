@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="dark" />
+    <title>StyleForge Bulk · Nano Banana Pro bulk image generator</title>
+    <meta
+      name="description"
+      content="Upload unlimited reference images and bulk-generate 100-200 images in the same style. Nano Banana Pro. No API key. No watermark. One-click ZIP download."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%96%BC%EF%B8%8F%3C/text%3E%3C/svg%3E"
+    />
+    <!--
+      Puter.js = the "no API key" layer. It uses the User-Pays model: the
+      signed-in user's own Puter account covers AI usage.
+
+      The SDK is bundled with the app (src/lib/puterClient.js imports
+      @heyputer/puter.js), so the page boots with zero third-party requests.
+      Only api.puter.com is contacted, and only when you press Generate. If the
+      bundle ever fails to start, the client falls back to loading
+      https://js.puter.com/v2/ automatically.
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

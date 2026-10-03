@@ -1,0 +1,25 @@
+{
+  "name": "styleforge-bulk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "StyleForge Bulk \u2014 free, no-API-key bulk image generator powered by Nano Banana Pro via Puter.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:e2e": "node test/bulk-run.mjs && node test/edge-cases.mjs",
+    "test:e2e:bulk": "node test/bulk-run.mjs",
+    "test:e2e:edge": "node test/edge-cases.mjs"
+  },
+  "dependencies": {
+    "@heyputer/puter.js": "^2.6.3",
+    "jszip": "^3.10.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}

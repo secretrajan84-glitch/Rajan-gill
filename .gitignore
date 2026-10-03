@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# headless test screenshots / temporary archives
+*.zip
+shot-*.png
+screenshots/
+
+# editor
+.vscode/
+.idea/
+*.swp
